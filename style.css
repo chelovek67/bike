@@ -1,0 +1,39 @@
+body{background-color: gray; background-image: url(6310407_0001s_0002s_0003_Sparkle.png); background-position: center center; background-size: cover; width: 100%; min-height: 100vh;}
+.spaced-image{margin-right: 35px; margin-bottom: 35px;}
+.i{margin-right: 850px; margin-bottom: 35px;}
+.buttom{ background: blue;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;}
+.buttom:hover{background: red;
+    transform: scale(1.1);}
+.box{width: 100px;
+    height: 100px;
+    background: green;
+
+    animation: move 3s infinite;}
+@keyframes move { 0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }}
+.vraschenie{width: 100px;
+    height: 100px;
+    background: blue;
+
+    animation: rotate 3s infinite;}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
